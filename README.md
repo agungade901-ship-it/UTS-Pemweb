@@ -125,7 +125,7 @@ Responsivitas dibangun secara bertahap (*mobile-friendly*) untuk mengubah tata l
 ```
 
 ## Website dan Repository
-- **URL GitHub Pages**: 
+- **URL GitHub Pages**: https://github.com/agungade901-ship-it
 - **URL Repository**: https://github.com/agungade901-ship-it/UTS-Pemweb.git
 
 ## Referensi
