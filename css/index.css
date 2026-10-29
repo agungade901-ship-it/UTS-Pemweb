@@ -1,0 +1,84 @@
+/* Gaya khusus halaman Beranda */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 28px;
+    margin-top: 28px;
+    padding: 30px;
+    border-radius: 20px;
+    background: var(--green-light);
+}
+
+.hero h1 {
+    max-width: 520px;
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: var(--green);
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: var(--green-dark);
+}
+
+.intro-section {
+    padding: 44px 0 34px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card, .sdg-strip {
+    padding: 20px;
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    background: var(--white);
+}
+
+.card p, .sdg-strip p {
+    color: var(--muted);
+}
+
+.number {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: var(--green);
+    font-weight: bold;
+}
+
+.sdg-strip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.sdg-strip h2, .sdg-strip p {
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .hero, .sdg-strip, .cards {
+        grid-template-columns: 1fr;
+    }
+    .hero {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,63 @@
+/* Gaya khusus halaman Artikel */
+.article {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.article-heading {
+    margin-bottom: 22px;
+}
+
+.article-image {
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 15px;
+}
+
+.article-body {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.article-body h2 {
+    margin-top: 24px;
+}
+
+.article-body p {
+    color: var(--muted);
+}
+
+blockquote {
+    margin: 24px 0;
+    padding: 17px 20px;
+    border-left: 4px solid var(--green);
+    border-radius: 0 9px 9px 0;
+    background: var(--green-light);
+    color: var(--green-dark);
+    font-weight: bold;
+}
+
+.fact-card, .sdg-card {
+    margin-top: 28px;
+    padding: 22px;
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    background: var(--white);
+}
+
+.fact-card {
+    background: var(--green-light);
+}
+
+.fact-card p {
+    color: var(--text);
+}
+
+.fact-card .small-note {
+    color: var(--muted);
+}
+
+.sdg-card p {
+    margin: 0;
+    color: var(--muted);
+}
