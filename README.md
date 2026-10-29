@@ -126,7 +126,7 @@ Responsivitas dibangun secara bertahap (*mobile-friendly*) untuk mengubah tata l
 
 ## Website dan Repository
 - **URL GitHub Pages**: 
-- **URL Repository**: 
+- **URL Repository**: https://github.com/agungade901-ship-it/UTS-Pemweb.git
 
 ## Referensi
 1. **United Nations** — SDG 11: Sustainable Cities and Communities (`https://sdgs.un.org/goals/goal11`)
